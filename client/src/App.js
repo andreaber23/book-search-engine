@@ -40,7 +40,7 @@ function App() {
             path='/' 
             element={<SearchBooks />} 
           />
-          <Route 
+          <Route exact
             path='/saved' 
             element={<SavedBooks />} 
           />
